@@ -42,13 +42,13 @@ int main(){
 //	setlocale(LC_ALL,"TURKISH");
    	
     MatrisCarp(a,b,c);
-	//Çarpma iþlemi sonu
 	
-	MatrisYaz(a,15,15);
-	Yazi(15,15,'*');
-	MatrisYaz(b,30,15);
-	Yazi(30,15,'=');
-	MatrisYaz(c,45,15);
+	
+	MatrisYaz(a,15,4);
+	Yazi(15,4,'*');
+	MatrisYaz(b,30,4);
+	Yazi(30,4,'=');
+	MatrisYaz(c,45,4);
 	
 	
 }
